@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2EA6AD260C44B30082F7E0 /* AboutHexaCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2EA6AC260C44B30082F7E0 /* AboutHexaCalcViewController.swift */; };
+		9D7C09BF25EC61E700771D52 /* HexaCalcIconIndigo-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099625EC61E500771D52 /* HexaCalcIconIndigo-83.5@2x~ipad.png */; };
+		9D7C09C025EC61E700771D52 /* HexaCalcIconBlue@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099725EC61E500771D52 /* HexaCalcIconBlue@2x~ipad.png */; };
+		9D7C09C125EC61E700771D52 /* HexaCalcIconOrange~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099825EC61E500771D52 /* HexaCalcIconOrange~ipad.png */; };
+		9D7C09C225EC61E700771D52 /* HexaCalcIconRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099925EC61E500771D52 /* HexaCalcIconRed@2x.png */; };
+		9D7C09C325EC61E700771D52 /* HexaCalcIconGreen-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099A25EC61E500771D52 /* HexaCalcIconGreen-83.5@2x~ipad.png */; };
+		9D7C09C425EC61E700771D52 /* HexaCalcIconIndigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099B25EC61E500771D52 /* HexaCalcIconIndigo@2x.png */; };
+		9D7C09C525EC61E700771D52 /* HexaCalcIconRed~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099C25EC61E500771D52 /* HexaCalcIconRed~ipad.png */; };
+		9D7C09C625EC61E700771D52 /* HexaCalcIconPurple-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099D25EC61E500771D52 /* HexaCalcIconPurple-83.5@2x~ipad.png */; };
+		9D7C09C725EC61E700771D52 /* HexaCalcIconPurple@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099E25EC61E500771D52 /* HexaCalcIconPurple@2x~ipad.png */; };
+		9D7C09C825EC61E700771D52 /* HexaCalcIconGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C099F25EC61E500771D52 /* HexaCalcIconGreen@2x.png */; };
+		9D7C09C925EC61E700771D52 /* HexaCalcIconGreen@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A025EC61E500771D52 /* HexaCalcIconGreen@2x~ipad.png */; };
+		9D7C09CA25EC61E700771D52 /* HexaCalcIconYellow-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A125EC61E500771D52 /* HexaCalcIconYellow-83.5@2x~ipad.png */; };
+		9D7C09CB25EC61E700771D52 /* HexaCalcIconYellow~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A225EC61E500771D52 /* HexaCalcIconYellow~ipad.png */; };
+		9D7C09CC25EC61E700771D52 /* HexaCalcIconTeal~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A325EC61E500771D52 /* HexaCalcIconTeal~ipad.png */; };
+		9D7C09CD25EC61E700771D52 /* HexaCalcIconGreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A425EC61E500771D52 /* HexaCalcIconGreen@3x.png */; };
+		9D7C09CE25EC61E700771D52 /* HexaCalcIconPurple@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A525EC61E600771D52 /* HexaCalcIconPurple@3x.png */; };
+		9D7C09CF25EC61E700771D52 /* HexaCalcIconOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A625EC61E600771D52 /* HexaCalcIconOrange@2x.png */; };
+		9D7C09D025EC61E700771D52 /* HexaCalcIconIndigo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A725EC61E600771D52 /* HexaCalcIconIndigo@3x.png */; };
+		9D7C09D125EC61E700771D52 /* HexaCalcIconRed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A825EC61E600771D52 /* HexaCalcIconRed@3x.png */; };
+		9D7C09D225EC61E700771D52 /* HexaCalcIconOrange-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09A925EC61E600771D52 /* HexaCalcIconOrange-83.5@2x~ipad.png */; };
+		9D7C09D325EC61E700771D52 /* HexaCalcIconPurple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09AA25EC61E600771D52 /* HexaCalcIconPurple@2x.png */; };
+		9D7C09D425EC61E700771D52 /* HexaCalcIconPurple~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09AB25EC61E600771D52 /* HexaCalcIconPurple~ipad.png */; };
+		9D7C09D525EC61E700771D52 /* HexaCalcIconYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09AC25EC61E600771D52 /* HexaCalcIconYellow@2x.png */; };
+		9D7C09D625EC61E700771D52 /* HexaCalcIconBlue~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09AD25EC61E600771D52 /* HexaCalcIconBlue~ipad.png */; };
+		9D7C09D725EC61E700771D52 /* HexaCalcIconYellow@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09AE25EC61E600771D52 /* HexaCalcIconYellow@2x~ipad.png */; };
+		9D7C09D825EC61E700771D52 /* HexaCalcIconOrange@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09AF25EC61E600771D52 /* HexaCalcIconOrange@2x~ipad.png */; };
+		9D7C09D925EC61E700771D52 /* HexaCalcIconBlue-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B025EC61E600771D52 /* HexaCalcIconBlue-83.5@2x~ipad.png */; };
+		9D7C09DA25EC61E700771D52 /* HexaCalcIconTeal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B125EC61E600771D52 /* HexaCalcIconTeal@3x.png */; };
+		9D7C09DB25EC61E700771D52 /* HexaCalcIconTeal@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B225EC61E600771D52 /* HexaCalcIconTeal@2x~ipad.png */; };
+		9D7C09DC25EC61E700771D52 /* HexaCalcIconRed-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B325EC61E600771D52 /* HexaCalcIconRed-83.5@2x~ipad.png */; };
+		9D7C09DD25EC61E700771D52 /* HexaCalcIconGreen1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B425EC61E600771D52 /* HexaCalcIconGreen1024.png */; };
+		9D7C09DE25EC61E700771D52 /* HexaCalcIconGreen~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B525EC61E600771D52 /* HexaCalcIconGreen~ipad.png */; };
+		9D7C09DF25EC61E700771D52 /* HexaCalcIconTeal-83.5@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B625EC61E600771D52 /* HexaCalcIconTeal-83.5@2x~ipad.png */; };
+		9D7C09E025EC61E700771D52 /* HexaCalcIconBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B725EC61E600771D52 /* HexaCalcIconBlue@2x.png */; };
+		9D7C09E125EC61E700771D52 /* HexaCalcIconYellow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B825EC61E600771D52 /* HexaCalcIconYellow@3x.png */; };
+		9D7C09E225EC61E700771D52 /* HexaCalcIconIndigo~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09B925EC61E600771D52 /* HexaCalcIconIndigo~ipad.png */; };
+		9D7C09E325EC61E700771D52 /* HexaCalcIconOrange@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09BA25EC61E600771D52 /* HexaCalcIconOrange@3x.png */; };
+		9D7C09E425EC61E700771D52 /* HexaCalcIconTeal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09BB25EC61E600771D52 /* HexaCalcIconTeal@2x.png */; };
+		9D7C09E525EC61E700771D52 /* HexaCalcIconIndigo@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09BC25EC61E700771D52 /* HexaCalcIconIndigo@2x~ipad.png */; };
+		9D7C09E625EC61E700771D52 /* HexaCalcIconBlue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09BD25EC61E700771D52 /* HexaCalcIconBlue@3x.png */; };
+		9D7C09E725EC61E700771D52 /* HexaCalcIconRed@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C09BE25EC61E700771D52 /* HexaCalcIconRed@2x~ipad.png */; };
+		9D8A805524CB82A0008CDECE /* Formatter+BinaryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A805424CB82A0008CDECE /* Formatter+BinaryString.swift */; };
+		9D8F9A2924E6438800F32A2C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F9A2824E6438800F32A2C /* SettingsViewController.swift */; };
+		9D8F9A2B24E8DCE700F32A2C /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F9A2A24E8DCE700F32A2C /* UserPreferences.swift */; };
+		9D979A9A25E767D500357754 /* UIWindow+isLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D979A9925E767D500357754 /* UIWindow+isLandscape.swift */; };
+		9DA0D7EE250B270800F72051 /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0D7ED250B270800F72051 /* DataPersistence.swift */; };
+		9DAE268A24C68BEB0070B965 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE268924C68BEB0070B965 /* RoundButton.swift */; };
+		9DAE268D24C68C300070B965 /* Formatter+ScientificNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE268C24C68C300070B965 /* Formatter+ScientificNotation.swift */; };
+		9DAE269524C7F77A0070B965 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE269424C7F77A0070B965 /* StateController.swift */; };
+		9DC242F225E1EE440038DD63 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC242F125E1EE440038DD63 /* UIHelper.swift */; };
+		9DEF249724C553F000701F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF249624C553F000701F5B /* AppDelegate.swift */; };
+		9DEF249924C553F000701F5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF249824C553F000701F5B /* SceneDelegate.swift */; };
+		9DEF249B24C553F000701F5B /* HexadecimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF249A24C553F000701F5B /* HexadecimalViewController.swift */; };
+		9DEF249D24C553F000701F5B /* BinaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF249C24C553F000701F5B /* BinaryViewController.swift */; };
+		9DEF24A024C553F000701F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF249E24C553F000701F5B /* Main.storyboard */; };
+		9DEF24A324C553F000701F5B /* HexaCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF24A124C553F000701F5B /* HexaCalc.xcdatamodeld */; };
+		9DEF24A524C553F100701F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF24A424C553F100701F5B /* Assets.xcassets */; };
+		9DEF24A824C553F100701F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF24A624C553F100701F5B /* LaunchScreen.storyboard */; };
+		9DEF24B324C553F100701F5B /* HexaCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF24B224C553F100701F5B /* HexaCalcTests.swift */; };
+		9DEF24BE24C5578300701F5B /* DecimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF24BD24C5578300701F5B /* DecimalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DEF24AF24C553F100701F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEF248B24C553F000701F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEF249224C553F000701F5B;
+			remoteInfo = HexaCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D2EA6AC260C44B30082F7E0 /* AboutHexaCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutHexaCalcViewController.swift; sourceTree = "<group>"; };
+		9D7C099625EC61E500771D52 /* HexaCalcIconIndigo-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconIndigo-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C099725EC61E500771D52 /* HexaCalcIconBlue@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconBlue@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C099825EC61E500771D52 /* HexaCalcIconOrange~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconOrange~ipad.png"; sourceTree = "<group>"; };
+		9D7C099925EC61E500771D52 /* HexaCalcIconRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconRed@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconRed@2x.png"; sourceTree = "<group>"; };
+		9D7C099A25EC61E500771D52 /* HexaCalcIconGreen-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconGreen-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C099B25EC61E500771D52 /* HexaCalcIconIndigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconIndigo@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconIndigo@2x.png"; sourceTree = "<group>"; };
+		9D7C099C25EC61E500771D52 /* HexaCalcIconRed~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconRed~ipad.png"; sourceTree = "<group>"; };
+		9D7C099D25EC61E500771D52 /* HexaCalcIconPurple-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconPurple-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C099E25EC61E500771D52 /* HexaCalcIconPurple@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconPurple@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C099F25EC61E500771D52 /* HexaCalcIconGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconGreen@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconGreen@2x.png"; sourceTree = "<group>"; };
+		9D7C09A025EC61E500771D52 /* HexaCalcIconGreen@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconGreen@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09A125EC61E500771D52 /* HexaCalcIconYellow-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconYellow-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09A225EC61E500771D52 /* HexaCalcIconYellow~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconYellow~ipad.png"; sourceTree = "<group>"; };
+		9D7C09A325EC61E500771D52 /* HexaCalcIconTeal~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconTeal~ipad.png"; sourceTree = "<group>"; };
+		9D7C09A425EC61E500771D52 /* HexaCalcIconGreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconGreen@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconGreen@3x.png"; sourceTree = "<group>"; };
+		9D7C09A525EC61E600771D52 /* HexaCalcIconPurple@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconPurple@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconPurple@3x.png"; sourceTree = "<group>"; };
+		9D7C09A625EC61E600771D52 /* HexaCalcIconOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconOrange@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconOrange@2x.png"; sourceTree = "<group>"; };
+		9D7C09A725EC61E600771D52 /* HexaCalcIconIndigo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconIndigo@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconIndigo@3x.png"; sourceTree = "<group>"; };
+		9D7C09A825EC61E600771D52 /* HexaCalcIconRed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconRed@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconRed@3x.png"; sourceTree = "<group>"; };
+		9D7C09A925EC61E600771D52 /* HexaCalcIconOrange-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconOrange-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09AA25EC61E600771D52 /* HexaCalcIconPurple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconPurple@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconPurple@2x.png"; sourceTree = "<group>"; };
+		9D7C09AB25EC61E600771D52 /* HexaCalcIconPurple~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconPurple~ipad.png"; sourceTree = "<group>"; };
+		9D7C09AC25EC61E600771D52 /* HexaCalcIconYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconYellow@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconYellow@2x.png"; sourceTree = "<group>"; };
+		9D7C09AD25EC61E600771D52 /* HexaCalcIconBlue~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconBlue~ipad.png"; sourceTree = "<group>"; };
+		9D7C09AE25EC61E600771D52 /* HexaCalcIconYellow@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconYellow@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09AF25EC61E600771D52 /* HexaCalcIconOrange@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconOrange@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09B025EC61E600771D52 /* HexaCalcIconBlue-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconBlue-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09B125EC61E600771D52 /* HexaCalcIconTeal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconTeal@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconTeal@3x.png"; sourceTree = "<group>"; };
+		9D7C09B225EC61E600771D52 /* HexaCalcIconTeal@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconTeal@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09B325EC61E600771D52 /* HexaCalcIconRed-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconRed-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09B425EC61E600771D52 /* HexaCalcIconGreen1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HexaCalcIconGreen1024.png; path = ../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconGreen1024.png; sourceTree = "<group>"; };
+		9D7C09B525EC61E600771D52 /* HexaCalcIconGreen~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconGreen~ipad.png"; sourceTree = "<group>"; };
+		9D7C09B625EC61E600771D52 /* HexaCalcIconTeal-83.5@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconTeal-83.5@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09B725EC61E600771D52 /* HexaCalcIconBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconBlue@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconBlue@2x.png"; sourceTree = "<group>"; };
+		9D7C09B825EC61E600771D52 /* HexaCalcIconYellow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconYellow@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconYellow@3x.png"; sourceTree = "<group>"; };
+		9D7C09B925EC61E600771D52 /* HexaCalcIconIndigo~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconIndigo~ipad.png"; sourceTree = "<group>"; };
+		9D7C09BA25EC61E600771D52 /* HexaCalcIconOrange@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconOrange@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconOrange@3x.png"; sourceTree = "<group>"; };
+		9D7C09BB25EC61E600771D52 /* HexaCalcIconTeal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconTeal@2x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconTeal@2x.png"; sourceTree = "<group>"; };
+		9D7C09BC25EC61E700771D52 /* HexaCalcIconIndigo@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconIndigo@2x~ipad.png"; sourceTree = "<group>"; };
+		9D7C09BD25EC61E700771D52 /* HexaCalcIconBlue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HexaCalcIconBlue@3x.png"; path = "../../../../AppIcons/HexaCalc/HexaCalcIconFinal/HexaCalcIconBlue@3x.png"; sourceTree = "<group>"; };
+		9D7C09BE25EC61E700771D52 /* HexaCalcIconRed@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HexaCalcIconRed@2x~ipad.png"; sourceTree = "<group>"; };
+		9D8A805424CB82A0008CDECE /* Formatter+BinaryString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+BinaryString.swift"; sourceTree = "<group>"; };
+		9D8F9A2824E6438800F32A2C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9D8F9A2A24E8DCE700F32A2C /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		9D979A9925E767D500357754 /* UIWindow+isLandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+isLandscape.swift"; sourceTree = "<group>"; };
+		9DA0D7ED250B270800F72051 /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
+		9DAE268924C68BEB0070B965 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		9DAE268C24C68C300070B965 /* Formatter+ScientificNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+ScientificNotation.swift"; sourceTree = "<group>"; };
+		9DAE269424C7F77A0070B965 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		9DC242F125E1EE440038DD63 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		9DEF249324C553F000701F5B /* HexaCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexaCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEF249624C553F000701F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DEF249824C553F000701F5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DEF249A24C553F000701F5B /* HexadecimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexadecimalViewController.swift; sourceTree = "<group>"; };
+		9DEF249C24C553F000701F5B /* BinaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryViewController.swift; sourceTree = "<group>"; };
+		9DEF249F24C553F000701F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DEF24A224C553F000701F5B /* HexaCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HexaCalc.xcdatamodel; sourceTree = "<group>"; };
+		9DEF24A424C553F100701F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEF24A724C553F100701F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DEF24A924C553F100701F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEF24AE24C553F100701F5B /* HexaCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexaCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEF24B224C553F100701F5B /* HexaCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexaCalcTests.swift; sourceTree = "<group>"; };
+		9DEF24B424C553F100701F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEF24BD24C5578300701F5B /* DecimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEF249024C553F000701F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF24AB24C553F100701F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6DE93024D3CCD4005018E5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF249A24C553F000701F5B /* HexadecimalViewController.swift */,
+				9DEF249C24C553F000701F5B /* BinaryViewController.swift */,
+				9DEF24BD24C5578300701F5B /* DecimalViewController.swift */,
+				9D8F9A2824E6438800F32A2C /* SettingsViewController.swift */,
+				9D2EA6AC260C44B30082F7E0 /* AboutHexaCalcViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9D6DE93124D3CCFB005018E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DAE269424C7F77A0070B965 /* StateController.swift */,
+				9DAE268924C68BEB0070B965 /* RoundButton.swift */,
+				9D8F9A2A24E8DCE700F32A2C /* UserPreferences.swift */,
+				9DA0D7ED250B270800F72051 /* DataPersistence.swift */,
+				9DC242F125E1EE440038DD63 /* UIHelper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D6DE93224D3CF21005018E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D8F9A2C24EA011500F32A2C /* App Icons */,
+				9D6DE93324D3CF62005018E5 /* Storyboards */,
+				9DEF24A424C553F100701F5B /* Assets.xcassets */,
+				9DEF24A124C553F000701F5B /* HexaCalc.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D6DE93324D3CF62005018E5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF249E24C553F000701F5B /* Main.storyboard */,
+				9DEF24A624C553F100701F5B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9D8F9A2C24EA011500F32A2C /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C09B025EC61E600771D52 /* HexaCalcIconBlue-83.5@2x~ipad.png */,
+				9D7C09B725EC61E600771D52 /* HexaCalcIconBlue@2x.png */,
+				9D7C099725EC61E500771D52 /* HexaCalcIconBlue@2x~ipad.png */,
+				9D7C09BD25EC61E700771D52 /* HexaCalcIconBlue@3x.png */,
+				9D7C09AD25EC61E600771D52 /* HexaCalcIconBlue~ipad.png */,
+				9D7C099A25EC61E500771D52 /* HexaCalcIconGreen-83.5@2x~ipad.png */,
+				9D7C099F25EC61E500771D52 /* HexaCalcIconGreen@2x.png */,
+				9D7C09A025EC61E500771D52 /* HexaCalcIconGreen@2x~ipad.png */,
+				9D7C09A425EC61E500771D52 /* HexaCalcIconGreen@3x.png */,
+				9D7C09B525EC61E600771D52 /* HexaCalcIconGreen~ipad.png */,
+				9D7C09B425EC61E600771D52 /* HexaCalcIconGreen1024.png */,
+				9D7C099625EC61E500771D52 /* HexaCalcIconIndigo-83.5@2x~ipad.png */,
+				9D7C099B25EC61E500771D52 /* HexaCalcIconIndigo@2x.png */,
+				9D7C09BC25EC61E700771D52 /* HexaCalcIconIndigo@2x~ipad.png */,
+				9D7C09A725EC61E600771D52 /* HexaCalcIconIndigo@3x.png */,
+				9D7C09B925EC61E600771D52 /* HexaCalcIconIndigo~ipad.png */,
+				9D7C09A925EC61E600771D52 /* HexaCalcIconOrange-83.5@2x~ipad.png */,
+				9D7C09A625EC61E600771D52 /* HexaCalcIconOrange@2x.png */,
+				9D7C09AF25EC61E600771D52 /* HexaCalcIconOrange@2x~ipad.png */,
+				9D7C09BA25EC61E600771D52 /* HexaCalcIconOrange@3x.png */,
+				9D7C099825EC61E500771D52 /* HexaCalcIconOrange~ipad.png */,
+				9D7C099D25EC61E500771D52 /* HexaCalcIconPurple-83.5@2x~ipad.png */,
+				9D7C09AA25EC61E600771D52 /* HexaCalcIconPurple@2x.png */,
+				9D7C099E25EC61E500771D52 /* HexaCalcIconPurple@2x~ipad.png */,
+				9D7C09A525EC61E600771D52 /* HexaCalcIconPurple@3x.png */,
+				9D7C09AB25EC61E600771D52 /* HexaCalcIconPurple~ipad.png */,
+				9D7C09B325EC61E600771D52 /* HexaCalcIconRed-83.5@2x~ipad.png */,
+				9D7C099925EC61E500771D52 /* HexaCalcIconRed@2x.png */,
+				9D7C09BE25EC61E700771D52 /* HexaCalcIconRed@2x~ipad.png */,
+				9D7C09A825EC61E600771D52 /* HexaCalcIconRed@3x.png */,
+				9D7C099C25EC61E500771D52 /* HexaCalcIconRed~ipad.png */,
+				9D7C09B625EC61E600771D52 /* HexaCalcIconTeal-83.5@2x~ipad.png */,
+				9D7C09BB25EC61E600771D52 /* HexaCalcIconTeal@2x.png */,
+				9D7C09B225EC61E600771D52 /* HexaCalcIconTeal@2x~ipad.png */,
+				9D7C09B125EC61E600771D52 /* HexaCalcIconTeal@3x.png */,
+				9D7C09A325EC61E500771D52 /* HexaCalcIconTeal~ipad.png */,
+				9D7C09A125EC61E500771D52 /* HexaCalcIconYellow-83.5@2x~ipad.png */,
+				9D7C09AC25EC61E600771D52 /* HexaCalcIconYellow@2x.png */,
+				9D7C09AE25EC61E600771D52 /* HexaCalcIconYellow@2x~ipad.png */,
+				9D7C09B825EC61E600771D52 /* HexaCalcIconYellow@3x.png */,
+				9D7C09A225EC61E500771D52 /* HexaCalcIconYellow~ipad.png */,
+			);
+			path = "App Icons";
+			sourceTree = "<group>";
+		};
+		9DAE268B24C68C090070B965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DAE268C24C68C300070B965 /* Formatter+ScientificNotation.swift */,
+				9D8A805424CB82A0008CDECE /* Formatter+BinaryString.swift */,
+				9D979A9925E767D500357754 /* UIWindow+isLandscape.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DEF248A24C553F000701F5B = {
+			isa = PBXGroup;
+			children = (
+				9DEF249524C553F000701F5B /* HexaCalc */,
+				9DEF24B124C553F100701F5B /* HexaCalcTests */,
+				9DEF249424C553F000701F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEF249424C553F000701F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF249324C553F000701F5B /* HexaCalc.app */,
+				9DEF24AE24C553F100701F5B /* HexaCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEF249524C553F000701F5B /* HexaCalc */ = {
+			isa = PBXGroup;
+			children = (
+				9D6DE93024D3CCD4005018E5 /* View Controllers */,
+				9DAE268B24C68C090070B965 /* Extensions */,
+				9D6DE93124D3CCFB005018E5 /* Model */,
+				9D6DE93224D3CF21005018E5 /* Resources */,
+				9DEF249624C553F000701F5B /* AppDelegate.swift */,
+				9DEF249824C553F000701F5B /* SceneDelegate.swift */,
+				9DEF24A924C553F100701F5B /* Info.plist */,
+			);
+			path = HexaCalc;
+			sourceTree = "<group>";
+		};
+		9DEF24B124C553F100701F5B /* HexaCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF24B224C553F100701F5B /* HexaCalcTests.swift */,
+				9DEF24B424C553F100701F5B /* Info.plist */,
+			);
+			path = HexaCalcTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEF249224C553F000701F5B /* HexaCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEF24B724C553F100701F5B /* Build configuration list for PBXNativeTarget "HexaCalc" */;
+			buildPhases = (
+				9DEF248F24C553F000701F5B /* Sources */,
+				9DEF249024C553F000701F5B /* Frameworks */,
+				9DEF249124C553F000701F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexaCalc;
+			productName = HexaCalc;
+			productReference = 9DEF249324C553F000701F5B /* HexaCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DEF24AD24C553F100701F5B /* HexaCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEF24BA24C553F100701F5B /* Build configuration list for PBXNativeTarget "HexaCalcTests" */;
+			buildPhases = (
+				9DEF24AA24C553F100701F5B /* Sources */,
+				9DEF24AB24C553F100701F5B /* Frameworks */,
+				9DEF24AC24C553F100701F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEF24B024C553F100701F5B /* PBXTargetDependency */,
+			);
+			name = HexaCalcTests;
+			productName = HexaCalcTests;
+			productReference = 9DEF24AE24C553F100701F5B /* HexaCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEF248B24C553F000701F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Anthony Hopkins";
+				TargetAttributes = {
+					9DEF249224C553F000701F5B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9DEF24AD24C553F100701F5B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9DEF249224C553F000701F5B;
+					};
+				};
+			};
+			buildConfigurationList = 9DEF248E24C553F000701F5B /* Build configuration list for PBXProject "HexaCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DEF248A24C553F000701F5B;
+			productRefGroup = 9DEF249424C553F000701F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEF249224C553F000701F5B /* HexaCalc */,
+				9DEF24AD24C553F100701F5B /* HexaCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEF249124C553F000701F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7C09D025EC61E700771D52 /* HexaCalcIconIndigo@3x.png in Resources */,
+				9D7C09E725EC61E700771D52 /* HexaCalcIconRed@2x~ipad.png in Resources */,
+				9D7C09C525EC61E700771D52 /* HexaCalcIconRed~ipad.png in Resources */,
+				9D7C09CE25EC61E700771D52 /* HexaCalcIconPurple@3x.png in Resources */,
+				9D7C09C125EC61E700771D52 /* HexaCalcIconOrange~ipad.png in Resources */,
+				9DEF24A824C553F100701F5B /* LaunchScreen.storyboard in Resources */,
+				9D7C09E125EC61E700771D52 /* HexaCalcIconYellow@3x.png in Resources */,
+				9D7C09CF25EC61E700771D52 /* HexaCalcIconOrange@2x.png in Resources */,
+				9D7C09E625EC61E700771D52 /* HexaCalcIconBlue@3x.png in Resources */,
+				9D7C09DD25EC61E700771D52 /* HexaCalcIconGreen1024.png in Resources */,
+				9DEF24A524C553F100701F5B /* Assets.xcassets in Resources */,
+				9D7C09D625EC61E700771D52 /* HexaCalcIconBlue~ipad.png in Resources */,
+				9DEF24A024C553F000701F5B /* Main.storyboard in Resources */,
+				9D7C09D525EC61E700771D52 /* HexaCalcIconYellow@2x.png in Resources */,
+				9D7C09D325EC61E700771D52 /* HexaCalcIconPurple@2x.png in Resources */,
+				9D7C09C725EC61E700771D52 /* HexaCalcIconPurple@2x~ipad.png in Resources */,
+				9D7C09D825EC61E700771D52 /* HexaCalcIconOrange@2x~ipad.png in Resources */,
+				9D7C09DC25EC61E700771D52 /* HexaCalcIconRed-83.5@2x~ipad.png in Resources */,
+				9D7C09DF25EC61E700771D52 /* HexaCalcIconTeal-83.5@2x~ipad.png in Resources */,
+				9D7C09BF25EC61E700771D52 /* HexaCalcIconIndigo-83.5@2x~ipad.png in Resources */,
+				9D7C09CC25EC61E700771D52 /* HexaCalcIconTeal~ipad.png in Resources */,
+				9D7C09C925EC61E700771D52 /* HexaCalcIconGreen@2x~ipad.png in Resources */,
+				9D7C09D225EC61E700771D52 /* HexaCalcIconOrange-83.5@2x~ipad.png in Resources */,
+				9D7C09CD25EC61E700771D52 /* HexaCalcIconGreen@3x.png in Resources */,
+				9D7C09CB25EC61E700771D52 /* HexaCalcIconYellow~ipad.png in Resources */,
+				9D7C09E525EC61E700771D52 /* HexaCalcIconIndigo@2x~ipad.png in Resources */,
+				9D7C09C325EC61E700771D52 /* HexaCalcIconGreen-83.5@2x~ipad.png in Resources */,
+				9D7C09D125EC61E700771D52 /* HexaCalcIconRed@3x.png in Resources */,
+				9D7C09C425EC61E700771D52 /* HexaCalcIconIndigo@2x.png in Resources */,
+				9D7C09D425EC61E700771D52 /* HexaCalcIconPurple~ipad.png in Resources */,
+				9D7C09E425EC61E700771D52 /* HexaCalcIconTeal@2x.png in Resources */,
+				9D7C09E025EC61E700771D52 /* HexaCalcIconBlue@2x.png in Resources */,
+				9D7C09D925EC61E700771D52 /* HexaCalcIconBlue-83.5@2x~ipad.png in Resources */,
+				9D7C09E325EC61E700771D52 /* HexaCalcIconOrange@3x.png in Resources */,
+				9D7C09C225EC61E700771D52 /* HexaCalcIconRed@2x.png in Resources */,
+				9D7C09C025EC61E700771D52 /* HexaCalcIconBlue@2x~ipad.png in Resources */,
+				9D7C09DE25EC61E700771D52 /* HexaCalcIconGreen~ipad.png in Resources */,
+				9D7C09C625EC61E700771D52 /* HexaCalcIconPurple-83.5@2x~ipad.png in Resources */,
+				9D7C09DA25EC61E700771D52 /* HexaCalcIconTeal@3x.png in Resources */,
+				9D7C09E225EC61E700771D52 /* HexaCalcIconIndigo~ipad.png in Resources */,
+				9D7C09D725EC61E700771D52 /* HexaCalcIconYellow@2x~ipad.png in Resources */,
+				9D7C09DB25EC61E700771D52 /* HexaCalcIconTeal@2x~ipad.png in Resources */,
+				9D7C09CA25EC61E700771D52 /* HexaCalcIconYellow-83.5@2x~ipad.png in Resources */,
+				9D7C09C825EC61E700771D52 /* HexaCalcIconGreen@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF24AC24C553F100701F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEF248F24C553F000701F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEF249D24C553F000701F5B /* BinaryViewController.swift in Sources */,
+				9D8F9A2B24E8DCE700F32A2C /* UserPreferences.swift in Sources */,
+				9DEF249B24C553F000701F5B /* HexadecimalViewController.swift in Sources */,
+				9D8F9A2924E6438800F32A2C /* SettingsViewController.swift in Sources */,
+				9DAE268A24C68BEB0070B965 /* RoundButton.swift in Sources */,
+				9D979A9A25E767D500357754 /* UIWindow+isLandscape.swift in Sources */,
+				9DA0D7EE250B270800F72051 /* DataPersistence.swift in Sources */,
+				9DEF24A324C553F000701F5B /* HexaCalc.xcdatamodeld in Sources */,
+				9D2EA6AD260C44B30082F7E0 /* AboutHexaCalcViewController.swift in Sources */,
+				9DAE269524C7F77A0070B965 /* StateController.swift in Sources */,
+				9DEF249724C553F000701F5B /* AppDelegate.swift in Sources */,
+				9D8A805524CB82A0008CDECE /* Formatter+BinaryString.swift in Sources */,
+				9DAE268D24C68C300070B965 /* Formatter+ScientificNotation.swift in Sources */,
+				9DEF24BE24C5578300701F5B /* DecimalViewController.swift in Sources */,
+				9DEF249924C553F000701F5B /* SceneDelegate.swift in Sources */,
+				9DC242F225E1EE440038DD63 /* UIHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF24AA24C553F100701F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEF24B324C553F100701F5B /* HexaCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DEF24B024C553F100701F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEF249224C553F000701F5B /* HexaCalc */;
+			targetProxy = 9DEF24AF24C553F100701F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DEF249E24C553F000701F5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEF249F24C553F000701F5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DEF24A624C553F100701F5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEF24A724C553F100701F5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DEF24B524C553F100701F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DEF24B624C553F100701F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DEF24B824C553F100701F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = HexaCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HexaCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DEF24B924C553F100701F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = HexaCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HexaCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DEF24BB24C553F100701F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = HexaCalcTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HexaCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexaCalc.app/HexaCalc";
+			};
+			name = Debug;
+		};
+		9DEF24BC24C553F100701F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMBJV5C74X;
+				INFOPLIST_FILE = HexaCalcTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HexaCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexaCalc.app/HexaCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEF248E24C553F000701F5B /* Build configuration list for PBXProject "HexaCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF24B524C553F100701F5B /* Debug */,
+				9DEF24B624C553F100701F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEF24B724C553F100701F5B /* Build configuration list for PBXNativeTarget "HexaCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF24B824C553F100701F5B /* Debug */,
+				9DEF24B924C553F100701F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEF24BA24C553F100701F5B /* Build configuration list for PBXNativeTarget "HexaCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF24BB24C553F100701F5B /* Debug */,
+				9DEF24BC24C553F100701F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DEF24A124C553F000701F5B /* HexaCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DEF24A224C553F000701F5B /* HexaCalc.xcdatamodel */,
+			);
+			currentVersion = 9DEF24A224C553F000701F5B /* HexaCalc.xcdatamodel */;
+			path = HexaCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DEF248B24C553F000701F5B /* Project object */;
+}
